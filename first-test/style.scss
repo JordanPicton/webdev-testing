@@ -3,23 +3,44 @@ body {
    color: white;
 }
 
-header {
+// a {
+//    cursor: pointer;
+// }
+
+.main-header {
+   width: 100%;
+   height: 5.4vmax;
+   background-color: #fff;
    display: flex;
-   flex-direction: row;
-   align-items: center;
    justify-content: space-evenly;
-   
-   a {
-      font-size: 2.5em;
+
+   .main-header-logo {
+      width: fit-content;
+      height: 100%;
+      background-color: aqua;
+
+      img {
+         width: 100%;
+         height: 100%;
+      }
    }
 
-   #nav-logo {
-      max-width: 200px;
-   }
+   .main-header-nav {
+      width: 75%;
+      height: 100%;
+      background-color: lime;
 
-   .main-nav {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
+      .main-nav-list {
+
+      }
+
+      .main-nav-list li {
+         display: inline;
+         float: left;
+      }
+
+      .main-nav-list li a {
+      }
    }
 }
+jhfdsjhkfdsjkhfdsjkfds

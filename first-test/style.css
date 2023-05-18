@@ -3,20 +3,29 @@ body {
   color: white;
 }
 
-header {
+.main-header {
+  width: 100%;
+  height: 5.4vmax;
+  background-color: #fff;
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
 }
-header a {
-  font-size: 2.5em;
+.main-header .main-header-logo {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+  background-color: aqua;
 }
-header #nav-logo {
-  max-width: 200px;
+.main-header .main-header-logo img {
+  width: 100%;
+  height: 100%;
 }
-header .main-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.main-header .main-header-nav {
+  width: 75%;
+  height: 100%;
+  background-color: lime;
+}
+.main-header .main-header-nav .main-nav-list li {
+  display: inline;
+  float: left;
 }/*# sourceMappingURL=style.css.map */
