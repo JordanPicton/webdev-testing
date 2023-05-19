@@ -3,9 +3,10 @@ body {
    color: white;
 }
 
-// a {
-//    cursor: pointer;
-// }
+a {
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+}
 
 .main-header {
    width: 100%;
@@ -29,18 +30,25 @@ body {
       width: 75%;
       height: 100%;
       background-color: lime;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
 
       .main-nav-list {
+         width: 100%;
+         list-style-type: none;
+         display: flex;
+         justify-content: space-evenly;
 
-      }
+         .main-nav-item {
+            display: inline;
+            float: left;
 
-      .main-nav-list li {
-         display: inline;
-         float: left;
-      }
-
-      .main-nav-list li a {
+            .main-nav-link {
+               padding: 2em;
+               line-height: 5.4vmax;
+            }
+         }
       }
    }
 }
-jhfdsjhkfdsjkhfdsjkfds
