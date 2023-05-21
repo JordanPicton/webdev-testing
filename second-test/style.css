@@ -1,0 +1,89 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+a {
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-header {
+  width: 100%;
+  height: 5.5vmax;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-header .main-header-logo {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+  background-color: aqua;
+}
+.main-header .main-header-logo img {
+  width: 100%;
+  height: 100%;
+}
+.main-header .main-header-nav {
+  width: 75%;
+  height: 100%;
+  background-color: lime;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.main-header .main-header-nav .main-nav-list {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-header .main-header-nav .main-nav-list .main-nav-item {
+  display: inline;
+  float: left;
+  position: relative;
+  line-height: 5.5vmax;
+}
+.main-header .main-header-nav .main-nav-list .main-nav-item .main-nav-link {
+  display: block;
+  padding: 0 3rem;
+  font-size: 20px;
+  color: peachpuff;
+  position: relative;
+}
+.main-header .main-header-nav .main-nav-list .main-nav-item .main-nav-link:hover {
+  background-color: yellow;
+  color: blue;
+}
+.main-header .main-header-nav .main-nav-list .main-nav-item .proj-subnav {
+  width: 100%;
+  display: none;
+  background-color: green;
+  border-radius: 0px 0px 4px 4px;
+}
+.main-header .main-header-nav .main-nav-list .main-nav-item .proj-subnav .proj-sub-li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-header .main-header-nav .main-nav-list .main-nav-item .proj-subnav .proj-sub-top-a {
+  margin-top: 0.1rem;
+}
+.main-header .main-header-nav .main-nav-list .main-nav-item .proj-subnav .proj-sub-a {
+  width: 95%;
+  min-height: 1rem;
+  line-height: 4em;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  margin-bottom: 0.1rem;
+  background-color: coral;
+  border-radius: 1em;
+}
+.main-header .main-header-nav .main-nav-list .main-nav-item .proj-subnav .proj-sub-a:hover {
+  background-color: #fff;
+}
+.main-header .main-header-nav .main-nav-list .main-nav-item:hover .proj-subnav {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
