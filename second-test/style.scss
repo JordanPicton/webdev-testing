@@ -34,20 +34,68 @@ a {
       flex-direction: row;
       justify-content: space-evenly;
 
+      // First UL
       .main-nav-list {
          width: 100%;
          list-style-type: none;
          display: flex;
          justify-content: space-evenly;
 
+         // Main Nav LI's
          .main-nav-item {
             display: inline;
             float: left;
+            position: relative;
 
+            // The A element between the main nav LI's
             .main-nav-link {
-               padding: 2em;
+               display: block;
+               padding: 0 3rem;
                line-height: 5.5vmax;
+               font-size: 20px;
+               color: black;
+               overflow: none;
             }
+
+            .main-nav-link:hover {
+               background-color: green;
+               color: blue;
+            }
+
+            .proj-subnav {
+               width: 96%;
+               display: none;
+               position: absolute;
+               background-color: green;
+               border-radius: 0px 0px 4px 4px;
+
+               .proj-sub-li {
+                  width: 100%;
+                  display: flex;
+                  justify-content: center;
+               }
+
+               .proj-sub-top-a {
+                  margin-top: 0.25rem;
+               }
+
+               .proj-sub-a {
+                  width: 2em;
+                  line-height: 4vmax;
+                  display: flex;
+                  justify-content: center;
+                  font-size: 16px;
+                  margin-bottom: 0.25rem;
+                  background-color: coral;
+               }
+
+               .proj-sub-a:hover {
+                  background-color: #fff;
+               }
+            }
+         }
+         .main-nav-item:hover .proj-subnav {
+            display: block;
          }
       }
    }
