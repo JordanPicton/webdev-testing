@@ -1,6 +1,5 @@
 body {
-   background-color: black;
-   color: white;
+   background-color: #2b2b2b;
 }
 
 a {
@@ -10,15 +9,15 @@ a {
 
 .main-header {
    width: 100%;
-   height: 5.5vmax;
-   background-color: #fff;
+   height: 6vmax;
+   background-color: #000;
    display: flex;
+   align-items: center;
    justify-content: space-evenly;
 
    .main-header-logo {
       width: fit-content;
-      height: 100%;
-      background-color: aqua;
+      height: 90%;
 
       img {
          width: 100%;
@@ -29,7 +28,6 @@ a {
    .main-header-nav {
       width: 75%;
       height: 100%;
-      background-color: lime;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
@@ -40,6 +38,7 @@ a {
          list-style-type: none;
          display: flex;
          justify-content: space-evenly;
+         align-items: center;
 
          // Main Nav LI's
          .main-nav-item {
