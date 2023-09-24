@@ -1,0 +1,120 @@
+html {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 2em;
+  font-family: "Comfortaa", cursive;
+}
+
+.header-main {
+  width: 100%;
+  padding: 0 60px;
+  height: 12vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.header-main nav {
+  display: flex;
+}
+.header-main .main-logo {
+  height: 4rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  align-self: center;
+  cursor: pointer;
+}
+.header-main .main-logo img {
+  height: 100%;
+}
+.header-main ul {
+  height: 100%;
+  padding-left: 3rem;
+  display: flex;
+  align-self: center;
+}
+.header-main ul li a {
+  display: block;
+  padding: 0 10px;
+  height: 100%;
+  line-height: 12vh;
+  font-size: 1rem;
+  color: #000000;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all ease-in-out 100ms;
+  font-weight: 900;
+}
+.header-main ul li a:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+/* Drop down styling start */
+.header-main ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+  position: absolute;
+  left: -40px;
+  transition: all ease-in-out 100ms;
+}
+
+.header-main ul li ul li a {
+  white-space: nowrap;
+}
+
+ul li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+/* Drop down styling end. */
+.header-main .sm {
+  align-self: center;
+  display: flex;
+}
+
+.header-main form {
+  height: 40px;
+  padding-right: 5px;
+  display: flex;
+  border: 1px solid #aeaeae;
+  border-radius: 20px 100px 100px 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  align-self: center;
+}
+.header-main form input {
+  height: 100%;
+  width: 300px;
+  padding: 0 10px 0 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: Roboto;
+}
+.header-main form input:focus {
+  border: 1px solid #111;
+}
+.header-main form button {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 5px 0 10px;
+}
+.header-main form button img {
+  height: 24px;
+  padding-top: 15%;
+  cursor: pointer;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+body h1 {
+  font-size: 4em;
+}/*# sourceMappingURL=style.css.map */
