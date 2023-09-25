@@ -5,20 +5,20 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Fifth Navigation Test</title>
-   <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+   <link rel="stylesheet" href="reset.css">
    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
    <header>
+      <a class="nav-logo-a" href="index.html">
+         <img class="nav-logo" src="img/logo1.svg" alt="Pictostudio Logo">
+      </a>
       <nav class="main-nav">
-         <a class="nav-logo" href="index.html">
-            <img src="img/logo1.svg" alt="Pictostudio Logo">
-         </a>
          <ul class="nav-list">
             <li><a href="" class="nav-item">Portfolio</a></li>
             <li><a href="" class="nav-item">Guides</a>
-               <ul class="guide-dropdown">
+               <ul class="dropdown">
                   <li><a href="" class="guide-item"></a></li>
                   <li><a href="" class="guide-item"></a></li>
                   <li><a href="" class="guide-item"></a></li>
@@ -26,11 +26,38 @@
                   <li><a href="" class="guide-item"></a></li>
                </ul>
             </li>
-            <li><a href="" class="nav-item">Projects</a></li>
+            <li><a href="" class="nav-item">Projects</a>
+               <ul class="dropdown">
+                  <li><a href="" class="project-item"></a></li>
+                  <li><a href="" class="project-item"></a></li>
+                  <li><a href="" class="project-item"></a></li>
+                  <li><a href="" class="project-item"></a></li>
+                  <li><a href="" class="project-item"></a></li>
+               </ul>
+            </li>
+            <li><a href="" class="nav-item">Services</a>
+               <ul class="dropdown">
+                  <li><a href="" class="services-item"></a></li>
+                  <li><a href="" class="services-item"></a></li>
+                  <li><a href="" class="services-item"></a></li>
+                  <li><a href="" class="services-item"></a></li>
+                  <li><a href="" class="services-item"></a></li>
+               </ul>
+            </li>
             <li><a href="" class="nav-item">About Me</a></li>
             <li><a href="" class="nav-item">Contact</a></li>
          </ul>
       </nav>
+      <div class="sm">
+         <form action="" method="post">
+            <input type="text" name="search" placeholder="Search...">
+            <button type="submit"><img src="img/icons8-search.svg" alt="Search Icon"></button>
+         </form>
+         <div class="sm-links">
+            <img src="img/icons8-github.svg" alt="Github Link">
+            <img src="img/icons8-linkedin.svg" alt="Linkedin Link">
+         </div>
+      </div>
    </header>
    <!-- <main>
       <h1>Fifth Navigation Test</h1>

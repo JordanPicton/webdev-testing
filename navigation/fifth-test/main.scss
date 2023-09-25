@@ -1,3 +1,83 @@
-// .main-nav {
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
-// }
+//font-family: 'Comfortaa', cursive;
+
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #373737;
+    padding: 1rem 0;
+    width: 100vw;
+    height: fit-content;
+
+    .nav-logo-a {
+        align-self: center;
+        width: 8vw;
+        padding: 0 1rem 0 1rem;
+    }
+    .main-nav {
+        width: 65vw;
+        height: 100%;
+        // padding: 1rem 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-self: center;
+
+        .nav-list {
+            display: flex;
+            align-self: center;
+            align-items: center;
+            width: 100%;
+            height: 60%;
+            justify-content: space-around;
+            border: 1px white solid;
+            border-radius: 2rem;
+            padding: 0.5rem;
+            overflow: hidden;
+
+            .nav-item {
+                color: rgb(212, 121, 212);
+                font-size: 1.5em;
+                font-weight: 900;
+                height: 100%;
+                padding: 0.7rem 0.3rem;
+                text-align: center;
+            }
+
+            .nav-item:link, .nav-item:visited {
+                display: block;
+            }
+
+            .nav-item:hover, nav-item:active {
+                background-color: blue;
+            }
+        }
+    }
+
+    .sm {
+        display: flex;
+        align-items: center;
+
+        form {
+            display: flex;
+        }
+
+        .sm-links {
+            display: flex;
+            align-self: center;
+            height: 30%;
+        }
+    }
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}

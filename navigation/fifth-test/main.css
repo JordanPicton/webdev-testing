@@ -1,1 +1,72 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+html {
+  background-color: black;
+  color: white;
+  font-family: "Comfortaa", cursive;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #373737;
+  padding: 1rem 0;
+  width: 100vw;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+header .nav-logo-a {
+  align-self: center;
+  width: 8vw;
+  padding: 0 1rem 0 1rem;
+}
+header .main-nav {
+  width: 65vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: center;
+}
+header .main-nav .nav-list {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+  justify-content: space-around;
+  border: 1px white solid;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  overflow: hidden;
+}
+header .main-nav .nav-list .nav-item {
+  color: rgb(212, 121, 212);
+  font-size: 1.5em;
+  font-weight: 900;
+  height: 100%;
+  padding: 0.7rem 0.3rem;
+  text-align: center;
+}
+header .main-nav .nav-list .nav-item:link, header .main-nav .nav-list .nav-item:visited {
+  display: block;
+}
+header .main-nav .nav-list .nav-item:hover, header .main-nav .nav-list nav-item:active {
+  background-color: blue;
+}
+header .sm {
+  display: flex;
+  align-items: center;
+}
+header .sm form {
+  display: flex;
+}
+header .sm .sm-links {
+  display: flex;
+  align-self: center;
+  height: 30%;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */
