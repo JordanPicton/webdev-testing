@@ -15,6 +15,8 @@ header {
    padding: 1rem 0;
    width: 100vw;
    height: fit-content;
+   top: 0;
+   z-index: 100;
 
    .nav-logo-a {
       align-self: center;
@@ -22,6 +24,7 @@ header {
       padding: 0 1rem 0 1rem;
       background: url("/img/logo1.svg") no-repeat;
    }
+
    .main-nav {
       width: 65vw;
       height: 100%;
@@ -62,23 +65,14 @@ header {
          }
 
          .nav-item:hover,
-         nav-item:active {
+         .nav-item:active {
             background-color: rgba(255, 0, 212, 0.267);
             color: rgb(247, 0, 247);
             text-decoration: underline;
             transition: all 500ms;
          }
-
-         .sub-item {
-            display: none;
-         }
-
-         .subsub-item {
-            display: none;
-         }
       }
    }
-
    // Below is the CSS for the form/search
    // .sm {
    //    width: 25vw;
