@@ -60,8 +60,7 @@ header .main-nav .nav-list .nav-item:visited {
 }
 header .main-nav .nav-list .nav-item:hover,
 header .main-nav .nav-list nav-item:active {
-  background-color: rgba(241, 86, 255, 0.212);
-  color: rgb(233, 14, 233);
+  background-color: blue;
 }
 header .main-nav .nav-list .sub-item {
   display: none;

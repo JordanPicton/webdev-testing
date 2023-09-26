@@ -63,8 +63,7 @@ header {
 
          .nav-item:hover,
          nav-item:active {
-            background-color: rgba(241, 86, 255, 0.212);
-            color: rgb(233, 14, 233);
+            background-color: blue;
          }
 
          .sub-item {
@@ -72,6 +71,58 @@ header {
          }
       }
    }
+
+   // Below is the CSS for the form/search
+   // .sm {
+   //    width: 25vw;
+   //    display: flex;
+   //    align-items: center;
+   //    flex-direction: row;
+   //    justify-content: flex-end;
+
+   //    form {
+   //       display: flex;
+   //       align-items: center;
+
+   //       input {
+   //          height: 3vh;
+   //          border-radius: 15px;
+   //          background-color: #212121;
+   //       }
+
+   //       button {
+   //          border-radius: 60%;
+   //          height: 4vh;
+   //          width: 3vw;
+   //          background-color: #8f8f8f;
+   //          padding: 0.3rem;
+   //       }
+
+   //       button:hover {
+   //          background-color: rgb(212, 121, 212);
+   //          cursor: pointer;
+   //       }
+
+   //       button img {
+   //          height: 100%;
+   //          width: 100%;
+   //          align-content: center;
+   //          align-self: center;
+   //       }
+   //    }
+
+   //    .sm-links {
+   //       display: flex;
+   //       align-items: center;
+   //       justify-content: flex-end;
+   //       height: 30%;
+   //       padding: 0.5rem;
+   //    }
+
+   //    .sm-links:hover a img {
+   //       filter: hue-rotate(180deg);
+   //    }
+   // }
 }
 
 body {
