@@ -17,6 +17,7 @@ header {
    height: fit-content;
    top: 0;
    z-index: 100;
+   color: rgb(212, 121, 212);
 
    .nav-logo-a {
       align-self: center;
@@ -49,7 +50,6 @@ header {
          overflow: hidden;
 
          .nav-item {
-            color: rgb(212, 121, 212);
             font-size: 1.5em;
             font-weight: 900;
             height: 100%;
@@ -59,12 +59,14 @@ header {
             border-radius: 20px;
          }
 
-         .dropdown, .subdrop-down {
+         .dropdown,
+         .subdrop-down {
             display: none;
             visibility: hidden;
          }
 
-         .nav-item:hover>.dropdown, .nav-item:hover>.subdrop-down {
+         .nav-item:hover>.dropdown,
+         .nav-item:hover>.subdrop-down {
             display: block;
             visibility: visible;
          }
@@ -83,6 +85,7 @@ header {
          }
       }
    }
+
    // Below is the CSS for the form/search
    // .sm {
    //    width: 25vw;
