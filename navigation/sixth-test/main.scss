@@ -15,6 +15,9 @@ header {
    padding: 1rem 0;
    width: 100vw;
    height: fit-content;
+   top: 0;
+   z-index: 100;
+   color: rgb(212, 121, 212);
 
    .nav-logo-a {
       align-self: center;
@@ -22,6 +25,7 @@ header {
       padding: 0 1rem 0 1rem;
       background: url("/img/logo1.svg") no-repeat;
    }
+
    .main-nav {
       width: 65vw;
       height: 100%;
@@ -40,13 +44,12 @@ header {
          width: fit-content;
          height: fit-content;
          justify-content: space-around;
-         border: 1px white solid;
+         border: 3px rgb(20, 20, 20) solid;
          border-radius: 2rem;
          padding: 0.5rem;
          overflow: hidden;
 
          .nav-item {
-            color: rgb(212, 121, 212);
             font-size: 1.5em;
             font-weight: 900;
             height: 100%;
@@ -56,18 +59,29 @@ header {
             border-radius: 20px;
          }
 
+         .dropdown,
+         .subdrop-down {
+            display: none;
+            visibility: hidden;
+         }
+
+         .nav-item:hover>.dropdown,
+         .nav-item:hover>.subdrop-down {
+            display: block;
+            visibility: visible;
+         }
+
          .nav-item:link,
          .nav-item:visited {
             display: block;
          }
 
          .nav-item:hover,
-         nav-item:active {
-            background-color: blue;
-         }
-
-         .sub-item {
-            display: none;
+         .nav-item:active {
+            background-color: rgba(255, 0, 212, 0.267);
+            color: rgb(247, 0, 247);
+            text-decoration: underline;
+            transition: all 500ms;
          }
       }
    }
