@@ -56,6 +56,14 @@ header .main-nav .nav-list .nav-item {
   text-align: center;
   border-radius: 20px;
 }
+header .main-nav .nav-list .dropdown, header .main-nav .nav-list .subdrop-down {
+  display: none;
+  visibility: hidden;
+}
+header .main-nav .nav-list .nav-item:hover > .dropdown, header .main-nav .nav-list .nav-item:hover > .subdrop-down {
+  display: block;
+  visibility: visible;
+}
 header .main-nav .nav-list .nav-item:link,
 header .main-nav .nav-list .nav-item:visited {
   display: block;

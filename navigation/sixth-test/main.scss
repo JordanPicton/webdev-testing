@@ -59,6 +59,16 @@ header {
             border-radius: 20px;
          }
 
+         .dropdown, .subdrop-down {
+            display: none;
+            visibility: hidden;
+         }
+
+         .nav-item:hover>.dropdown, .nav-item:hover>.subdrop-down {
+            display: block;
+            visibility: visible;
+         }
+
          .nav-item:link,
          .nav-item:visited {
             display: block;
