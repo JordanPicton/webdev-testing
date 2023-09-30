@@ -2,7 +2,7 @@ html {
     font-size: 16px;
     background: no-repeat fixed url("https://wallpapers.com/images/hd/1920x1080-hd-coding-n3ntziiyw4uk3bws.jpg");
     color: white;
-    font-family: 'Onest', sans-serif;
+    font-family: "Onest", sans-serif;
 }
 
 header {
@@ -23,9 +23,8 @@ header {
         }
     }
 
-    .nav-logo:hover>img {
+    .nav-logo:hover > img {
         background-color: blue;
-        ;
     }
 
     .main-nav {
@@ -53,7 +52,8 @@ header {
                 color: black;
             }
 
-            .nav-item:hover>.sub-list {
+            .nav-item:hover > .sub-list,
+            .nav-item:hover > .sub-item {
                 display: block;
                 visibility: visible;
                 opacity: 1;

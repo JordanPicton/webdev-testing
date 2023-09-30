@@ -43,7 +43,8 @@ header .main-nav .mnav-list .nav-item:hover {
   background-color: orange;
   color: black;
 }
-header .main-nav .mnav-list .nav-item:hover > .sub-list {
+header .main-nav .mnav-list .nav-item:hover > .sub-list,
+header .main-nav .mnav-list .nav-item:hover > .sub-item {
   display: block;
   visibility: visible;
   opacity: 1;
