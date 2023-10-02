@@ -1,0 +1,63 @@
+html {
+    font-size: 16px;
+    background: no-repeat fixed url("https://wallpapers.com/images/hd/1920x1080-hd-coding-n3ntziiyw4uk3bws.jpg");
+    color: white;
+    font-family: "Onest", sans-serif;
+}
+
+header {
+    background-color: rgba(9, 39, 1, 0.925);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    font-size: 1.7rem;
+    position: sticky;
+    z-index: 100;
+
+    .nav-logo {
+        img {
+            height: 5rem;
+            border-radius: 50%;
+            margin: 0 1.5rem;
+        }
+    }
+
+    .nav-logo:hover > img {
+        background-color: blue;
+    }
+
+    .main-nav {
+        .mnav-list {
+            display: flex;
+
+            .sub-item {
+                display: none;
+                visibility: hidden;
+                opacity: 0;
+            }
+
+            .nav-item {
+                padding: 0 0.4em;
+                margin: 0 1rem;
+                border-radius: 5px;
+
+                a:hover {
+                    color: pink;
+                }
+            }
+
+            .nav-item:hover {
+                background-color: orange;
+                color: black;
+            }
+
+            .nav-item:hover > .sub-list,
+            .nav-item:hover > .sub-item {
+                display: block;
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+    }
+}

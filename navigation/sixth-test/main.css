@@ -15,6 +15,7 @@ header {
   height: fit-content;
   top: 0;
   z-index: 100;
+  color: rgb(212, 121, 212);
 }
 header .nav-logo-a {
   align-self: center;
@@ -47,7 +48,6 @@ header .main-nav .nav-list {
   overflow: hidden;
 }
 header .main-nav .nav-list .nav-item {
-  color: rgb(212, 121, 212);
   font-size: 1.5em;
   font-weight: 900;
   height: 100%;
@@ -56,11 +56,13 @@ header .main-nav .nav-list .nav-item {
   text-align: center;
   border-radius: 20px;
 }
-header .main-nav .nav-list .dropdown, header .main-nav .nav-list .subdrop-down {
+header .main-nav .nav-list .dropdown,
+header .main-nav .nav-list .subdrop-down {
   display: none;
   visibility: hidden;
 }
-header .main-nav .nav-list .nav-item:hover > .dropdown, header .main-nav .nav-list .nav-item:hover > .subdrop-down {
+header .main-nav .nav-list .nav-item:hover > .dropdown,
+header .main-nav .nav-list .nav-item:hover > .subdrop-down {
   display: block;
   visibility: visible;
 }
