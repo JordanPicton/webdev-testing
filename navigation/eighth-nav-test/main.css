@@ -1,0 +1,41 @@
+.main-nav ul {
+  background-color: #8c52ff;
+}
+
+.main-nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.main-nav ul li a {
+  display: block;
+  padding: 20px 25px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.main-nav ul li ul.dropdown li {
+  display: block;
+}
+
+.main-nav ul li ul.dropdown {
+  width: 100%;
+  background-color: #8c52ff;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+.main-nav ul li a:hover {
+  background-color: #6d30e9;
+}
+
+/* This is how it's done!!! Omg you specific the parent element then the element below it like I originally thought.
+I want to look into this more and actually figure it out though. I wonder if this would work if I removed the ".main-nav" and "ul" 
+I'm pretty sure it will be fine and I can give them class names or id's even and it'll work but I'd like to test and make sure anyway.
+Thinking of this I may actually recreate different versions of this in here rather than creating new tests for them.
+Using this as the base I'll start with sub-test-one.*/
+.main-nav ul li:hover ul.dropdown {
+  display: block;
+}
