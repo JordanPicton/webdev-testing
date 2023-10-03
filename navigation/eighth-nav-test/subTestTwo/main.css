@@ -1,14 +1,20 @@
-.main-nav a img {
-  width: 4rem;
-  margin: 0.5vw;
+/* Since the logo isn't insie the nav, I had to make these changes to the main header element.
+Along with some other changes like making it  */
+header {
+  background-color: #8c52ff;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
 }
 
-/* I had to add display of flex and align items to this to make it work with the logo.
-Also I change .main-nav ul to just .main-nav to make the image have the same background colour. */
+/* Using percentages here is a bad idea in this case it seems. There's also some funky behaviour when it comes to flexbox attributes. */
+header a img {
+  height: 4rem;
+  margin: 1rem;
+}
+
 .main-nav {
-  background-color: #8c52ff;
-  display: flex;
-  align-items: center;
+  align-self: center;
 }
 
 .main-nav ul li {
@@ -37,7 +43,7 @@ Also I change .main-nav ul to just .main-nav to make the image have the same bac
 }
 
 .main-nav ul li a:hover,
-.main-nav > a:hover {
+.main-nav>a:hover {
   background-color: #6d30e9;
 }
 
